@@ -17,7 +17,7 @@ Spider-Crawler is a webcrawler capable to get words from any site and create a w
 
 2. Give execution permission
 
-    `chmod 755 /spidercrawler/spidercrawler`
+    `chmod 755 spidercrawler/spidercrawler`
 
 3. Add to PATH
 

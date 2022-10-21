@@ -21,7 +21,7 @@ Spider-Crawler is a webcrawler capable to get words from any site and create a w
 
 3. Add to PATH
 
-   `sudo cp /spidercrawler/spidercrawler /usr/bin/spidercrawler && rm -rf spidercrawler`
+   `sudo cp spidercrawler/spidercrawler /usr/bin/spidercrawler && rm -rf spidercrawler`
 
 ## Usage
 `spidercrawler <url> <wordlist name>`

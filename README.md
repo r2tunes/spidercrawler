@@ -5,7 +5,7 @@
 Spider-Crawler is a webcrawler capable to get words from any site and create a wordlist for a possible brute-force 🕸️
 
 <div align="center">
-<img src="https://media0.giphy.com/media/5wFGrglelyPDUPWMEO/giphy.gif?cid=ecf05e47pcjdnu7nfw8b0qrxq4g8ye1ey1zwjxooip71qjpr&rid=giphy.gif&ct=g" align="right">
+<img src="https://i.pinimg.com/originals/3b/df/51/3bdf51181669bb2afe345f25f8e28245.gif" align="right">
   </div>
 
 

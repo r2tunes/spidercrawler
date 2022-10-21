@@ -1,0 +1,30 @@
+#!/bin/bash
+Help()
+{
+	echo "This program makes a wordlistwith all possible words in the specified site"
+	echo
+	echo "Usage: spidercrawler <url> <output>"
+	echo "Options:"
+	echo "-h 	Display this message"
+}
+
+while getopts ":h" option; do 
+	case $option in
+		h)
+			Help
+			exit;;
+		/?)
+			echo "My man...?"
+			exit;;
+	esac
+done
+dir=~/.spidercrawler/
+wlp=$dir/$2
+if test -d "$dir"; then
+	pass
+else
+	mkdir ~/.spidercrawler/
+fi
+
+curl $1 | sed 's/[^a-zA-Z ]/ /g' | tr 'A-Z ' 'a-z\n' | grep '[a-z]' | sort -u > $wlp
+echo -e "\nFile saved in "$wlp
